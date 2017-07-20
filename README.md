@@ -7,3 +7,6 @@ $mt = new CrazyInventor\Mailtrapper([YOUR_MAILTRAP_API_TOKEN]);
 $inboxes = $mt->getInboxes();
 $mails = $mt->getMails([YOUR_MAILTRAP_INBOX_ID]);
 ```
+
+## Testing
+run 
