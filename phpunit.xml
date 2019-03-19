@@ -19,12 +19,12 @@
     </logging>
     <filter>
         <whitelist processUncoveredFilesFromWhitelist="true">
-            <directory suffix=".php">./src/Bandolier</directory>
+            <directory suffix=".php">./src</directory>
         </whitelist>
     </filter>
 
     <testsuites>
-        <testsuite name="Bandolier Test Suite">
+        <testsuite name="CrazyInventor Test Suite">
             <directory suffix="Test.php">tests</directory>
         </testsuite>
     </testsuites>
